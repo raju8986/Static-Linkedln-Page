@@ -1,0 +1,464 @@
+/***********************************************************
+            For flex item in header
+***********************************************************/
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* position: relative; */
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.image img {
+    /* margin-top: 40px; */
+}
+
+.image input {
+    width: 350px;
+    height: 50px;
+    /* margin-top: 38px; */
+    margin-left: 20px;
+    background-color: skyblue;
+    border: none;
+    font-size: 25px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 250px;
+    gap: 35px;
+}
+
+.opacity {
+    opacity: 0.7;
+}
+
+.opacity:hover {
+    opacity: 1;
+}
+
+/**********************************************************
+              For Main items
+***********************************************************/
+.main {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+/********************************************
+ For left item 
+*********************************************/
+.left {
+    width: 300px;
+    height: 1050px;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.back {
+    background-image: url("background.jpg");
+    width: 300px;
+    height: 120px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.back img {
+    margin-left: 100px;
+    margin-top: 80px;
+    border-radius: 50px;
+}
+
+.name {
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.college {
+    background-color: white;
+    font-size: 20px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.connect {
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+
+.connect p {
+    background-color: white;
+}
+
+.view {
+    margin-top: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+
+.view p {
+    background-color: white;
+    font-size: 20px;
+}
+
+.save {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.save i {
+    background-color: white;
+    margin-left: 10px;
+}
+
+.save p {
+    background-color: white;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.down {
+    margin-top: 15px;
+    background-color: white;
+    margin-left: 5px;
+}
+
+.tens {
+    background-color: white;
+}
+
+.down p {
+    background-color: white;
+}
+
+.color {
+    background-color: white;
+    color: blue;
+    font-size: 20px;
+}
+
+.group {
+    background-color: white;
+    margin-left: 5px;
+}
+
+.group .color {
+    background-color: white;
+}
+
+.group p {
+    background-color: white;
+}
+
+.follow {
+    background-color: white;
+    margin-left: 5px;
+}
+
+.follow p {
+    background-color: white;
+}
+
+.recent {
+    margin-top: 15px;
+    background-color: white;
+    border-top: 1px solid black;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+/*************************************************
+  FOR MIDDLE ITEMS
+**************************************************/
+.container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 800px;
+    background-color: white;
+}
+
+
+/***********************************************
+   FOR FLEX ITEM 3
+************************************************/
+.flex-item3 {
+    height: 180px;
+    border-radius: 25px;
+}
+
+.up {
+    margin-left: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.up img {
+    border-radius: 50px;
+}
+
+.up input {
+    width: 670px;
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-indent: 35px;
+    border-color: 1px solid black;
+}
+
+.do {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    margin-left: 55px;
+    gap: 75px;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+
+.news img {
+    background-color: white;
+}
+
+.news p {
+    background-color: white;
+}
+
+.myntra {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.myntra p {
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    gap: 15px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.like img {
+    background-color: white;
+}
+
+.like p {
+    background-color: white;
+    font-size: 20px;
+    opacity: 0.7;
+    margin-left: 20px;
+}
+
+.send {
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.send div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+
+.send div p {
+    background-color: white;
+    opacity: 0.7;
+}
+
+.send div img {
+    background-color: white;
+    opacity: 0.7;
+}
+
+/***********************************************
+   FOR FLEX ITEM 4
+************************************************/
+.flex-item4 {
+    height: 700px;
+}
+
+
+
+/***********************************************
+   FOR FLEX ITEM 5
+************************************************/
+.flex-item5 {
+    height: 700px;
+    margin-bottom: 50px;
+}
+
+
+/*************************************************
+  FOR MIDDLE ITEMS
+**************************************************/
+.container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 50px;
+}
+
+.flex {
+    width: 400px;
+    background-color: white;
+}
+
+
+/*************************************************
+  FOR FLEX ITEM 6
+**************************************************/
+
+.flex-item6 {
+    height: 350px;
+    border-radius: 15px;
+}
+
+.link {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+}
+
+.link p {
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.link img {
+    background-color: white;
+}
+
+.order {
+    background-color: white;
+    margin-left: 40px;
+}
+
+.order ul {
+    background-color: white;
+}
+
+.order li {
+    background-color: white;
+}
+
+li p {
+    background-color: white;
+}
+
+ul {
+    font-size: 40px;
+}
+
+/*************************************************
+  FOR FLEX ITEM 7
+**************************************************/
+.flex-item7 {
+    height: 230px;
+    border-radius: 15px;
+}
+
+/*************************************************
+  FOR FLEX ITEM8
+**************************************************/
+.flex-item8 {
+    height: 500px;
+    border-radius: 15px;
+}
+
+.uni {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.but {
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.linked {
+    margin-left: 22px;
+}
+
+.int {
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.mint {
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 20px;
+}
